@@ -1,15 +1,15 @@
 {
-	"name": "stub",
-	"tagName": "x-stub",
+	"name": "x-game-memory",
+	"tagName": "x-game-memory",
 	"version": "0.1.0",
-	"author": "you",
-	"description": "",
+	"author": "Ognjen Petrovic",
+	"description": "Memory game",
 	"demo": "demo/index.html",
 	"categories": [],
 	"compatibility": {
-		"firefox": 5,
-		"chrome": 4,
-		"ie": 9,
+		"firefox": 28,
+		"chrome": 34,
+		"ie": 11,
 		"opera": 12,
 		"android": 2.1,
 		"ios": 4
