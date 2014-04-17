@@ -1,0 +1,16 @@
+{
+  "name": "x-game-memory",
+  "description": "Memory game X-Tag",
+  "version": "0.1.0",
+  "keywords": [
+    "web-components",    
+    "x-tag"
+  ],
+  "main": [
+    "src/x-game-memory.js",
+    "src/x-game-memory.css"
+  ],
+  "dependencies": {
+    "x-tag-core": "*"
+  }
+}

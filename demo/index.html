@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Memory game - X-Tag</title>
+    <link rel="stylesheet" type="text/css" href="x-tag-components.css"/>
+	<link rel="stylesheet" type="text/css" href="../src/x-game-memory.css"/>
+
+    <script type="text/javascript" src="x-tag-components.js"></script> 
+    <script type="text/javascript" src="../src/x-game-memory.js"></script>      
+	<style>
+
+	</style>
+
+<script type="text/javascript">
+window.onload = function(){
+  document.getElementById('memory').addEventListener('done', function(e){
+    if(confirm("Done. New game?"))
+    	this.xStartGame();
+  });	
+}
+
+ </script>	
+</head>
+
+<body>
+	<x-game-memory
+	    id="memory" 
+	    data-col-num="4" 
+		data-image-sources='["img/chocolate_1.png",
+				 "img/chocolate_1w.png",
+				 "img/chocolate_2.png",
+				 "img/chocolate_2w.png",
+				 "img/chocolate_3.png",
+				 "img/chocolate_3w.png",
+				 "img/chocolate_5.png",
+				 "img/chocolate_5w.png"
+				]'>
+	</x-game-memory>
+<br>
+<a href="http://www.iconarchive.com/show/chocolate-icons-by-manda-pie.html" target="_blank">Image source</a> 
+</body>
+
+</html>
