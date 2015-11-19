@@ -8,7 +8,7 @@ Memory game X-Tag
 
 [Example 1] (http://ognjen-petrovic.from.hr/playground/github/x-game-memory/demo/index.html)
 
-[X-Tags Docs](http://x-tags.org/docs)
+[X-Tags Docs](http://x-tag.github.io/)
 
 [Guide for creating X-Tag Components](https://github.com/x-tag/core/wiki/Creating-X-Tag-Components)
 
