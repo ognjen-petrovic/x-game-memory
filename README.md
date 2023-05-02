@@ -5,6 +5,7 @@ Memory game X-Tag
 
 
 # Links
+[demo](https://ognjen-petrovic.github.io/x-game-memory/demo/index.html)
 
 [X-Tags Docs](http://x-tag.github.io/)
 
